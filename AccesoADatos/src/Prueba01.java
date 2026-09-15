@@ -21,7 +21,7 @@ public class Prueba01 {
 
         Path ruta  = Paths.get("nose.txt");
         long bytes = Files.size(ruta);
-        System.out.println(" pruba el tamaño del archivo en bytes es : " +bytes);
+        System.out.println(" el tamaño del archivo en bytes es : " +bytes);
 
         //5.2 Lo mismo con un directorio. Comprueba con isDirectory() que efectivamente lo es, y explica en un comentario qué devuelve length() sobre él.
         System.out.println("es un directorio? " + archivo.isDirectory());
