@@ -10,9 +10,12 @@ public class Prueba01 {
         // 5.1 Instancia un fichero y determina si existe. Muestra su nombre, tamaño y ruta absoluta.
         File archivo = new File("../nose.txt");
     // cuando el archivo real no existe da false, si haces archivo.createNewFile() da true
+
+       long tamaño = archivo.length();
         if(archivo.exists()){
+
             System.out.println("nombre :" + archivo.getName());
-            System.out.println("tamano :" + archivo.length());
+            System.out.println("tamano :" + tamaño);
             System.out.println("ruta absoluta:" + archivo.getAbsolutePath());
         }else{
             System.out.println("El archivo no existe");
