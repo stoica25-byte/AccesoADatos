@@ -1,4 +1,4 @@
-package sesion_3_ficheros;
+
 
 import java.io.File;
 import java.io.FileNotFoundException;
