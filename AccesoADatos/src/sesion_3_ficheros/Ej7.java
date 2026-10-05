@@ -21,6 +21,7 @@ public class Ej7 {
 
         System.out.println(contarPalabras("prueba"));
 
+        // se podria con una lambda br.lines()
     }
 
     public static int contarPalabras(String nombreFichero){

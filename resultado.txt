@@ -1,0 +1,2 @@
+Numeros leidos: 4
+Media: 28,00
