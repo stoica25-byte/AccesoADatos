@@ -1,0 +1,16 @@
+### IDEs & OS ###
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Java / Maven build output ###
+target/
+bin/
+out/
+*.class
+
+### Temp / Backups ###
+*.save
